@@ -113,7 +113,7 @@
       let baseUrl = "https://api.themoviedb.org/3/";
       let apiKey = "api_key=fe100bbca655353018637c478236eb4b";
       let apiUrl = baseUrl + "discover/movie?" + apiKey;
-      let searchUrl = baseUrl + "search/movie?" + apiKey + '&query="';
+      let searchUrl = baseUrl + "search/movie?" + apiKey + '&include_adult=false&query="';
       console.log(searchUrl);
       const productsContainer = document.querySelector("#products-container");
 
